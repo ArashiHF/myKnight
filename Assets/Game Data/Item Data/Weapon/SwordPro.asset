@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44bb60939eb4b047a7716d1e6ccbe36, type: 3}
+  m_Name: SwordPro
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: SwordPro
+  itemIcon: {fileID: 21300000, guid: f048d932b65d05841adaba78549cc6ca, type: 3}
+  itemAmount: 1
+  description: "\u8FD9\u662F\u52C7\u8005\u51FA\u5F81\u65F6\u5019\u628A\u5BB6\u91CC\u7684\u83DC\u5200\u91CD\u65B0\u6253\u78E8\u4E4B\u540E\u7684\u6837\u5B50"
+  stackable: 0
+  useableData: {fileID: 0}
+  weaponPrefab: {fileID: 6952029018714682374, guid: c6abdcc2171d10e4e862d47fad02351c, type: 3}
+  weaponData: {fileID: 11400000, guid: ed4649932cef0ae438312a7885ae9c30, type: 2}
+  weaponAnimator: {fileID: 22100000, guid: 29331fd11d9f83e4283d2c9c3f495f42, type: 2}

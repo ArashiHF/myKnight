@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b2e88a58b106640ac48667e68dd086, type: 3}
+  m_Name: MushRoom Cat_Progress
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 1
+    image: {fileID: 21300000, guid: aad5c33f1b3e362479ece42c46e78ed4, type: 3}
+    text: "\u8611\u83C7\u7684\u8BDD\u4F60\u53EF\u4EE5\u8FC7\u6CB3\u53BB\u627E\uFF0C\u5F88\u5BB9\u6613\u627E\u5230\u7684\uFF0C\u4E4C\u9F9F\u53F2\u83B1\u59C6\u7684\u8BDD\u4F1A\u6816\u606F\u5728\u6709\u8611\u83C7\u751F\u957F\u7684\u5730\u65B9\uFF0C\u5982\u679C\u4E0D\u5C0F\u5FC3\u5403\u4E86\u8611\u83C7\u7684\u8BDD\u602A\u7269\u8EAB\u4E0A\u4E5F\u4F1A\u6389\u843D"
+    quest: {fileID: 0}
+    canExpand: 1
+    options: []

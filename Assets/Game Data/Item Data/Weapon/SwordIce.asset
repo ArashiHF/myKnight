@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44bb60939eb4b047a7716d1e6ccbe36, type: 3}
+  m_Name: SwordIce
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: SwordIce
+  itemIcon: {fileID: 21300000, guid: 3e49baf7fbca24544bee5c026f3a843a, type: 3}
+  itemAmount: 1
+  description: "\u5728\u6781\u5BD2\u4E4B\u5730\u624D\u80FD\u8BDE\u751F\u51FA\u7684\u51B0\u4E4B\u5251\uFF08\u8BF4\u767D\u4E86\u5C31\u662F\u51B0\u68CD"
+  stackable: 0
+  useableData: {fileID: 0}
+  weaponPrefab: {fileID: 5322665048529346644, guid: eac7071533d3f6b4280b8e0ea1c2a2bb, type: 3}
+  weaponData: {fileID: 11400000, guid: 1d34a5d034f12454abb5be4747149722, type: 2}
+  weaponAnimator: {fileID: 22100000, guid: 29331fd11d9f83e4283d2c9c3f495f42, type: 2}

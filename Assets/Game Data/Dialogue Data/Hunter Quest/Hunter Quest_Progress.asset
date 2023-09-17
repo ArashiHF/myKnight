@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b2e88a58b106640ac48667e68dd086, type: 3}
+  m_Name: Hunter Quest_Progress
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 1
+    image: {fileID: 21300000, guid: c2c1e873c263c15438d196b17eb4696b, type: 3}
+    text: "\u517D\u4EBA\u4ED6\u4EEC\u5C31\u5728\u68EE\u6797\u7684\u6DF1\u5904\uFF0C\u5F80\u524D\u76F4\u8D70\u5C31\u80FD\u9047\u5230\u4E86\uFF0C\u5200\u7684\u8BDD\u5728\u9644\u8FD1\u7684\u6E56\u65C1\u8FB9\uFF0C\u636E\u961F\u957F\u63CF\u8FF0\u770B\u8D77\u6765\u5F88\u80FD\u89E3\u6691"
+    quest: {fileID: 0}
+    canExpand: 1
+    options:
+    - text: "\u5F88\u80FD\u89E3\u6691\uFF1F\uFF1F\uFF1F"
+      targetID: 
+      takeQuest: 0

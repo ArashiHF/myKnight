@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c44bb60939eb4b047a7716d1e6ccbe36, type: 3}
+  m_Name: BreakSword
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: BreakSword
+  itemIcon: {fileID: 21300000, guid: 1330b480852ae23448baa0af9f9679ce, type: 3}
+  itemAmount: 1
+  description: "\u8FD9\u662F\u6211\u4EEC\u8DDF\u9694\u58C1ff7\u8054\u52A8\u7684\u6B66\u5668\uFF0C\u4F5C\u4E3Aff7\u4E3B\u89D2\u514B\u52B3\u5FB7\u7684\u6B66\u5668\uFF0C\u7531\u4E8E\u5F00\u53D1\u8005\u5077\u61D2\u6240\u4EE5\u6570\u503C\u8C03\u7684\u7279\u522B\u9AD8\uFF0C\u53EA\u662F\u56E0\u4E3A\u4ED6\u662F\u61D2\u72D7"
+  stackable: 0
+  useableData: {fileID: 0}
+  weaponPrefab: {fileID: 5715990096624662525, guid: 8ce1a9acaeaffbb4f9ee73d2015f0219,
+    type: 3}
+  weaponData: {fileID: 11400000, guid: 56316c6775238da41b9b4bdcc56116a6, type: 2}
+  weaponAnimator: {fileID: 22100000, guid: f34ac5bec97f29a44ad2b48741b79186, type: 2}

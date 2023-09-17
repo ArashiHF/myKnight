@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b2e88a58b106640ac48667e68dd086, type: 3}
+  m_Name: Quest_Slime_Progress
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: Piece
+    image: {fileID: 21300000, guid: bba85c74ab0d9a84999ec4b9762cc04a, type: 3}
+    text: "\u4F60\u8BF4\u8981\u53BB\u54EA\u91CC\u627E\u53F2\u83B1\u59C6\u554A\uFF1F\u6211\u8BB0\u5F97\u4ED6\u4EEC\u4E00\u822C\u90FD\u5728\u6CB3\u8FB9\u5C3D\u5934\u80FD\u591F\u627E\u5230"
+    quest: {fileID: 0}
+    canExpand: 1
+    options: []

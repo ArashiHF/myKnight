@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b2e88a58b106640ac48667e68dd086, type: 3}
+  m_Name: Golem Quest_Finish
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 1
+    image: {fileID: 21300000, guid: d6d95982f63661f4291fd5740ea3b2b5, type: 3}
+    text: "\u4E0D\u6127\u662F\u5192\u9669\u5BB6\uFF0C\u5FEB\u53BB\u4F20\u9001\u95E8\u91CC\u9762\u8FD9\u6837\u624D\u80FD\u627E\u5230\u5927\u6CD5\u5E08\uFF0C\u54E6\u5BF9\u4E86\u5FD8\u4E86\u544A\u8BC9\u4F60\uFF0C\u5176\u5B9E\u8FD9\u4E2A\u95E8\u662F\u53BB\u526F\u961F\u957F\u90A3\u4E2A\u57CE\u5899\u4EEC\u7684\uFF0C\u90A3\u91CC\u624D\u662F\u5927\u6CD5\u5E08\u7684\u4F20\u9001\u95E8\u3002"
+    quest: {fileID: 0}
+    canExpand: 1
+    options: []

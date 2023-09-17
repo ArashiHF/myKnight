@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b2e88a58b106640ac48667e68dd086, type: 3}
+  m_Name: MushRoom Cat_Complete
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 1
+    image: {fileID: 21300000, guid: aad5c33f1b3e362479ece42c46e78ed4, type: 3}
+    text: "\u6CA1\u60F3\u5230\u5192\u9669\u5BB6\u7684\u8EAB\u624B\u8FD9\u4E48\u5389\u5BB3\u3002\u6709\u673A\u4F1A\u7684\u8BDD\u6211\u4E5F\u60F3\u518D\u7ED9\u4F60\u591A\u70B9\u6D3B\u3002"
+    quest: {fileID: 0}
+    canExpand: 1
+    options:
+    - text: "\u3002\u3002\u3002\u5148\u8BF4\u6B63\u4E8B\uFF0C\u5927\u6CD5\u5E08\u5728\u54EA\u4E2A\u4F4D\u7F6E\uFF1F"
+      targetID: 2
+      takeQuest: 0
+  - ID: 2
+    image: {fileID: 21300000, guid: aad5c33f1b3e362479ece42c46e78ed4, type: 3}
+    text: "\u4E0D\u597D\u610F\u601D\u54C8\uFF01\u5927\u6CD5\u5E08\u7684\u8BDD\u6211\u4EEC\u7684\u5927\u961F\u957F\u80AF\u5B9A\u77E5\u9053\u4ED6\u5728\u54EA\u91CC\uFF0C\u5927\u961F\u957F\u7684\u8BDD\u5C31\u5728\u8FC7\u4E86\u6CB3\u4E4B\u540E\u76F4\u8D70\uFF0C\u8D70\u4E00\u6BB5\u65F6\u95F4\u5DE6\u8F6C\u5C31\u5DEE\u4E0D\u591A\u770B\u5230\u4E86\uFF0C\u8FD9\u662F\u4F60\u7684\u62A5\u916C"
+    quest: {fileID: 11400000, guid: fb0c6980394fdb54f87ff8a5bc9b06fe, type: 2}
+    canExpand: 1
+    options:
+    - text: "\u6211\u6536\u4E0B\u4E86\uFF0C\u8C22\u8C22"
+      targetID: 
+      takeQuest: 1

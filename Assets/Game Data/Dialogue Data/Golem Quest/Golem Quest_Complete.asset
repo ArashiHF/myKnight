@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b2e88a58b106640ac48667e68dd086, type: 3}
+  m_Name: Golem Quest_Complete
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 1
+    image: {fileID: 21300000, guid: d6d95982f63661f4291fd5740ea3b2b5, type: 3}
+    text: "\u4E0D\u6127\u662F\u5192\u9669\u5BB6\uFF0C\u6211\u76F8\u4FE1\u4F60\u4E00\u5B9A\u80FD\u591F\u51FB\u8D25\u77F3\u5934\u4EBA\u7684\uFF0C\u8BB0\u5F97\u5E26\u4E0A\u77F3\u5934\u4EBA\u7684\u6389\u843D\u7269\u627E\u5927\u6CD5\u5E08\u3002"
+    quest: {fileID: 11400000, guid: ac5441766d6aa2c4b9de696fc8a30e4b, type: 2}
+    canExpand: 1
+    options: []
+  - ID: 2
+    image: {fileID: 21300000, guid: d6d95982f63661f4291fd5740ea3b2b5, type: 3}
+    text: "\u8FD9\u662F\u6211\u8EAB\u4E0A\u6700\u597D\u7684\u88C5\u5907\uFF0C\u5BF9\u4E86FF7RE\u6700\u8FD1\u51FA\u4E86\u8BB0\u5F97\u8981\u53BB\u73A9\u3002"
+    quest: {fileID: 11400000, guid: ac5441766d6aa2c4b9de696fc8a30e4b, type: 2}
+    canExpand: 1
+    options:
+    - text: "\u6211\u4F1A\u7684"
+      targetID: 
+      takeQuest: 1

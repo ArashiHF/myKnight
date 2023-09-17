@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b2e88a58b106640ac48667e68dd086, type: 3}
+  m_Name: Hunter Quest_Complete
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 1
+    image: {fileID: 21300000, guid: c2c1e873c263c15438d196b17eb4696b, type: 3}
+    text: "\u54E6\uFF01\u5C31\u662F\u8FD9\u628A\u5200\uFF0C\u8C22\u8C22\u4F60\u5192\u9669\u5BB6"
+    quest: {fileID: 0}
+    canExpand: 1
+    options:
+    - text: "\u4E0D\u7528\u8C22"
+      targetID: 2
+      takeQuest: 0
+  - ID: 2
+    image: {fileID: 21300000, guid: c2c1e873c263c15438d196b17eb4696b, type: 3}
+    text: "\u8FD9\u628A\u662F\u6211\u4EEC\u7684\u5C0F\u961F\u5269\u4E0B\u6765\u7684\u53E6\u4E00\u628A\u5200\uFF0C\u6211\u5E0C\u671B\u4F60\u80FD\u6234\u4E0A\u5B83\u7EE7\u7EED\u5192\u9669"
+    quest: {fileID: 11400000, guid: 7aa476b5c1f86924f8ac57c775f84711, type: 2}
+    canExpand: 1
+    options:
+    - text: "\u8FD9\uFF0C\u90A3\u6211\u5C31\u6536\u4E0B\u4E86"
+      targetID: 3
+      takeQuest: 1
+  - ID: 3
+    image: {fileID: 21300000, guid: c2c1e873c263c15438d196b17eb4696b, type: 3}
+    text: "\u961F\u957F\u7684\u8BDD\u4ED6\u5C31\u5728\u68EE\u6797\u5F80\u524D\u8D70\u5C31\u662F\u4E86\u3002\u5E0C\u671B\u4F60\u80FD\u591F\u65E9\u65E5\u627E\u5230\u56DE\u53BB\u7684\u65B9\u6CD5"
+    quest: {fileID: 0}
+    canExpand: 1
+    options: []

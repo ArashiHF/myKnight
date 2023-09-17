@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b2e88a58b106640ac48667e68dd086, type: 3}
+  m_Name: Master_Complete
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 1
+    image: {fileID: 21300000, guid: 35b85acb34760a8409b6e5aa61f49de1, type: 3}
+    text: "\u4F60\u8FD8\u771F\u7684\u5E26\u6765\u4E86\u8FD9\u672C\u4E66\u554A\uFF01\u770B\u6765\u6211\u4E5F\u9700\u8981\u51FA\u53BB\u8F6C\u8F6C\u4E86\uFF0C\u8FD9\u4E48\u4E45\u6CA1\u7528\u8FD9\u4E2A\u8EAB\u4EFD\u51FA\u53BB\u5E94\u8BE5\u53C8\u6709\u5F88\u591A\u4E8B\u60C5\u8981\u505A\u4E86"
+    quest: {fileID: 0}
+    canExpand: 1
+    options:
+    - text: "\u5927\u6CD5\u5E08\u4F60\u8FD8\u8BB0\u5F97\u6211\u8981\u5E72\u4EC0\u4E48\uFF1F"
+      targetID: 2
+      takeQuest: 0
+  - ID: 2
+    image: {fileID: 21300000, guid: 35b85acb34760a8409b6e5aa61f49de1, type: 3}
+    text: "\u54E6\uFF01\uFF01\uFF01\u6211\u770B\u770B\u54C8\uFF0C\u4F60\u53EA\u9700\u8981\u70B9\u51FB\u952E\u76D8\u7684ESC\u952E\u7136\u540E\u70B9END\u5C31\u884C\u4E86\uFF0C\u6BD5\u7ADF\u8FD9\u53EA\u662F\u4F60\u7684\u68A6\u800C\u5DF2\u3002"
+    quest: {fileID: 0}
+    canExpand: 1
+    options:
+    - text: "\u771F\u7684\u5047\u7684\uFF1F"
+      targetID: 3
+      takeQuest: 0
+  - ID: 3
+    image: {fileID: 21300000, guid: 35b85acb34760a8409b6e5aa61f49de1, type: 3}
+    text: "\u771F\u7684\u771F\u7684\uFF0C\u4F60\u5FEB\u8BD5\u8BD5\u5427\uFF0C\u4E66\u6211\u5C31\u62FF\u56DE\u53BB\u4E86\uFF0C\u5982\u679C\u4F60\u4E0D\u6025\u7740\u56DE\u53BB\u7684\u8BDD\u4E5F\u53EF\u4EE5\u7EE7\u7EED\u5728\u8FD9\u91CC\u901B\u901B\uFF0C\u54E6\u8FD8\u6709\u4E34\u8D70\u524D\u6211\u9001\u4F60\u6839\u51B0\u68D2\uFF0C\u5929\u6C14\u70ED\u554A\uFF0C\u8BB0\u5F97\u9632\u6691\u3002"
+    quest: {fileID: 11400000, guid: 436bf5959a1dea344b0e0bb7cd0a60ad, type: 2}
+    canExpand: 1
+    options:
+    - text: "\u54E6\uFF0C\u597D\u7684"
+      targetID: 
+      takeQuest: 1

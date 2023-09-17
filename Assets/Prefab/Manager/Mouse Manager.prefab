@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &239691907688680373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 239691907688680363}
+  - component: {fileID: 239691907688680362}
+  m_Layer: 0
+  m_Name: Mouse Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &239691907688680363
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239691907688680373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.617585, y: -7.0441246, z: 5.5144005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &239691907688680362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239691907688680373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3df9debf9315ad48b42f1e26d09cee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  point: {fileID: 2800000, guid: 7523d373562836a48bb6254b5b31312f, type: 3}
+  doorway: {fileID: 2800000, guid: f60ad14e981e394408f7197932279fe4, type: 3}
+  attack: {fileID: 2800000, guid: 0e3c46bb91b6683499dd815ec5795cc2, type: 3}
+  target: {fileID: 2800000, guid: 114e976c199f19d4b8cd5e4f0aab3d02, type: 3}
+  arrow: {fileID: 2800000, guid: 1a555dc18d1628d4faba41393302ebd5, type: 3}

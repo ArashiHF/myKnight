@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d701e541cd9a24192e573e13a4651e, type: 3}
+  m_Name: Master Quest
+  m_EditorClassIdentifier: 
+  questName: "\u9B54\u6CD5\u4E66"
+  description: "\u5927\u6CD5\u5E08\u8BF4\u77F3\u5934\u4EBA\u5176\u5B9E\u662F\u4ED6\u7684\u9B54\u6CD5\u4E66\u7F16\u7A0B\u7684\uFF0C\u60F3\u8981\u79BB\u5F00\u8FD9\u91CC\u5C31\u9700\u8981\u90A3\u672C\u9B54\u6CD5\u4E66\u3002"
+  isStarted: 0
+  isComplete: 0
+  isFinished: 0
+  questRequires:
+  - name: MasterBook
+    requireAmount: 1
+    currentAmount: 0
+  rewards:
+  - itemData: {fileID: 11400000, guid: 4a61fbcdb3b4d754db220cde08b8f580, type: 2}
+    amount: -1
+  - itemData: {fileID: 11400000, guid: d41e21e6d7b3b4e489f34674a59f669b, type: 2}
+    amount: 1

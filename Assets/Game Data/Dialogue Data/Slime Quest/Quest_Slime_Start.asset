@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b2e88a58b106640ac48667e68dd086, type: 3}
+  m_Name: Quest_Slime_Start
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 1
+    image: {fileID: 21300000, guid: bba85c74ab0d9a84999ec4b9762cc04a, type: 3}
+    text: "\u54E6\uFF01\u4F60\u5C31\u662FRin\u5C0F\u59D0\u8BF4\u7684\u521A\u6765\u5230\u8FD9\u91CC\u7684\u5192\u9669\u554A"
+    quest: {fileID: 0}
+    canExpand: 1
+    options:
+    - text: "\u6211\u60F3\u95EE\u5927\u6CD5\u5E08\u5728\u54EA\u91CC"
+      targetID: 2
+      takeQuest: 0
+    - text: "\u6211\u6700\u8FD1\u5728\u5FD9\u6BD5\u8BBE\u6CA1\u7A7A\u8DDF\u4F60\u95F2\u804A\u3002"
+      targetID: 
+      takeQuest: 0
+  - ID: 2
+    image: {fileID: 21300000, guid: bba85c74ab0d9a84999ec4b9762cc04a, type: 3}
+    text: "\u8FD9\u4E2A\u561B\uFF0C\u6211\u4E5F\u4E0D\u77E5\u9053\uFF0C\u4E0D\u8FC7\u6211\u4EEC\u7684\u526F\u961F\u957F\u4F3C\u4E4E\u6709\u4E9B\u4E86\u89E3\u3002\u6211\u6700\u8FD1\u6709\u4E9B\u4E8B\u60C5\u60F3\u8981\u8BF7\u4F60\u5E2E\u5FD9\uFF0C\u5F53\u7136\u6211\u4E0D\u4F1A\u8BA9\u4F60\u767D\u8DD1\u4E00\u5957\u7684\uFF0C\u6709\u5174\u8DA3\u5417\uFF1F"
+    quest: {fileID: 0}
+    canExpand: 1
+    options:
+    - text: "\u53EF\u4EE5\uFF0C\u8BF4\u6765\u542C\u542C\u5427"
+      targetID: 3
+      takeQuest: 0
+    - text: "\u6211\u5BB6\u7684\u516C\u9E21\u6700\u8FD1\u8981\u751F\u86CB\u4E86\uFF0C\u6682\u65F6\u6CA1\u7A7A"
+      targetID: 
+      takeQuest: 0
+  - ID: 3
+    image: {fileID: 21300000, guid: bba85c74ab0d9a84999ec4b9762cc04a, type: 3}
+    text: "\u6700\u8FD1\u6CB3\u8FB9\u51FA\u73B0\u4E86\u8BB8\u591A\u53F2\u83B1\u59C6\uFF0C\u6211\u6700\u8FD1\u6709\u70B9\u4E8B\u7A7A\u4E0D\u51FA\u624B\uFF0C\u6211\u5E0C\u671B\u4F60\u80FD\u5E2E\u5E2E\u6211"
+    quest: {fileID: 11400000, guid: 255e5ca8057e33c4c81009b5d31a7bf3, type: 2}
+    canExpand: 1
+    options:
+    - text: "\u53EF"
+      targetID: 
+      takeQuest: 1
+    - text: "\u4E0D\u5E72\uFF0C\u4E0B\u6B21\u89C1"
+      targetID: 
+      takeQuest: 0

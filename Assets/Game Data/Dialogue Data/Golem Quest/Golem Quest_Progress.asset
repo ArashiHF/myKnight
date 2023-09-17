@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84b2e88a58b106640ac48667e68dd086, type: 3}
+  m_Name: Golem Quest_Progress
+  m_EditorClassIdentifier: 
+  dialoguePieces:
+  - ID: 1
+    image: {fileID: 21300000, guid: d6d95982f63661f4291fd5740ea3b2b5, type: 3}
+    text: "\u5982\u4F55\u6253\u8D25\u77F3\u5934\u4EBA\uFF1F\u8BB0\u5F97\u8EB2\u907F\u77F3\u5934\u5E76\u4E14\u5C06\u77F3\u5934\u6253\u56DE\u53BB\u662F\u6BD4\u8F83\u597D\u7684\u65B9\u6CD5\uFF0C\u51FB\u8D25\u77F3\u5934\u4EBA\u4E4B\u540E\u5F00\u53D1\u8005\u8BF4\u4F1A\u6389\u843D\u6211\u4EEC\u7684\u9053\u5177\u6211\u4EEC\u9700\u8981\u8FD9\u4E2A\u9053\u5177\u624D\u80FD\u62EF\u6551\u5927\u6CD5\u5E08\uFF0C\u6240\u4EE5\u8BB0\u5F97\u8981\u5148\u51FB\u8D25\u77F3\u5934\u4EBA"
+    quest: {fileID: 0}
+    canExpand: 1
+    options:
+    - text: "\u4E86\u89E3"
+      targetID: 
+      takeQuest: 0
