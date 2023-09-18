@@ -40,7 +40,7 @@
 
 总结：该项目主要为功能较为齐全，是本人用于找工作的毕设项目，也是后面在艾莉冒险中使用的基本参照对象，两者比较大的不同在于控制模式，将采用playerController的方式来制作，参考其他的项目，手游方面则是由于艾莉冒险在设计之初动作和操作并不复杂，无缝衔接过去。  
 骑士的梦演示链接：https://www.bilibili.com/video/BV1oU4y1g7aA/  
-有什么问题可以发邮件136191898@qq.com，目前求职中！！！
+有什么问题可以发邮件136191898@qq.com，目前游戏客户端求职中！！！
 
 ![7}E_2GFANV}PABH1UXO`Q%5](https://github.com/ArashiHF/myKnight/assets/56665189/c7bdd4a5-f210-47d1-98d6-1435d8215f4d)
 
