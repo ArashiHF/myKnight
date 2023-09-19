@@ -7,17 +7,16 @@
  2、UI逻辑与数据交互
  
 本项目和之后的一款3DARPG游戏《艾莉冒险》都使用了ScriptObject来作为数据载体
-![image](https://github.com/ArashiHF/myKnight/assets/56665189/bb97b6e4-9db5-46e6-8cc7-f281072d389a)  
+![image](https://github.com/ArashiHF/myKnight/assets/56665189/cf6d0118-aaa7-4395-b4b0-df0207a4f292)  
 本项目绝大多数对象都使用该存储基类（大致如下，图3中还使用了自己编写的简易对话编辑器以及任务系统中需求的数据）
-
-![image](https://github.com/ArashiHF/myKnight/assets/56665189/af03d638-0e4b-4016-8ef6-23154259af87)
-![image](https://github.com/ArashiHF/myKnight/assets/56665189/5af9be79-e56f-41bf-8b67-4ad86f60af08)
-![image](https://github.com/ArashiHF/myKnight/assets/56665189/2dc07a4c-b188-44ee-be4e-581554ac51f2)
-
+![image](https://github.com/ArashiHF/myKnight/assets/56665189/e12996cc-c453-4253-ae48-91218521aec9)
+![image](https://github.com/ArashiHF/myKnight/assets/56665189/596e7a0a-afaa-419f-9e48-6957f8087f82)
+![image](https://github.com/ArashiHF/myKnight/assets/56665189/f1d4be1e-d830-43f4-8015-a0a99d989ec2)
 
 #角色、怪物  
+![image](https://github.com/ArashiHF/myKnight/assets/56665189/7925403b-be3e-43c0-8907-7f57bc13acfb)  
 玩家和怪物来自同一起源，继承同一状态代码（也就是血量，等级等数据以及攻击受伤等），在这之下增加角色的控制代码以及怪物的AI系统  
-![image](https://github.com/ArashiHF/myKnight/assets/56665189/2cb7717e-9cb7-42cf-b6ae-a470abd9387d)
+![image](https://github.com/ArashiHF/myKnight/assets/56665189/57ff4172-dbf1-4024-9c6b-33dee6499621)  
 移动则使用自动寻路插件NavMeshAgent，要剔除掉不可移动的位置采用获取hasPath这一数据来判断是否有路径，解法参考[这里](https://blog.csdn.net/qq_52855744/article/details/118724620)，还有一种根据动画适配移动的方法，该方法用在了艾莉冒险上.  
 ![image](https://github.com/ArashiHF/myKnight/assets/56665189/f1da5d12-59ff-48d1-b438-9f5e47ae5e73)  
 角色动画机是比较麻烦的部分，采用动画分层，就是将不同的状态分开来做。  
