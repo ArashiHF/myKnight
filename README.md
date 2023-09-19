@@ -8,7 +8,7 @@
  
 本项目和之后的一款3DARPG游戏《艾莉冒险》都使用了ScriptObject来作为数据载体
 ![image](https://github.com/ArashiHF/myKnight/assets/56665189/cf6d0118-aaa7-4395-b4b0-df0207a4f292)  
-本项目绝大多数对象都使用该存储基类（大致如下，图3中还使用了自己编写的简易对话编辑器以及任务系统中需求的数据）
+本项目绝大多数对象都使用该存储基类（大致如下，图3中还使用了自己编写的简易对话编辑器以及任务系统中需求的数据）  
 ![image](https://github.com/ArashiHF/myKnight/assets/56665189/e12996cc-c453-4253-ae48-91218521aec9)
 ![image](https://github.com/ArashiHF/myKnight/assets/56665189/596e7a0a-afaa-419f-9e48-6957f8087f82)
 ![image](https://github.com/ArashiHF/myKnight/assets/56665189/f1d4be1e-d830-43f4-8015-a0a99d989ec2)
