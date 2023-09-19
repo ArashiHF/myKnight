@@ -34,7 +34,7 @@
 ![image](https://github.com/ArashiHF/myKnight/assets/56665189/5df1a3a7-7ec1-4ba2-826a-3b00f5bf747b)
 
 #存档与传送门系统  
-![image](https://github.com/ArashiHF/myKnight/assets/56665189/3686e1fc-1192-4045-973b-790e2a8f5f68)  
+![image](https://github.com/ArashiHF/myKnight/assets/56665189/d8b698cf-63cb-4926-9c5b-54da03bb1225)  
 存档方面采用的是Json，将玩家的数据如等级、血量打包，背包、任务情况作为列表进行打包  
 传送门系统主要在场景传送需要注意，采用的是异步加载，通过获取目标名字使用协程加载资源，实现方法参考[这里](https://blog.csdn.net/xinzhilinger/article/details/110836837)。  
 
@@ -42,7 +42,9 @@
 骑士的梦演示链接：https://www.bilibili.com/video/BV1oU4y1g7aA/  
 有什么问题可以发邮件136191898@qq.com，目前游戏客户端求职中！！！
 
-![7}E_2GFANV}PABH1UXO`Q%5](https://github.com/ArashiHF/myKnight/assets/56665189/c7bdd4a5-f210-47d1-98d6-1435d8215f4d)
+![7}E_2GFANV}PABH1UXO`Q%5](https://github.com/ArashiHF/myKnight/assets/56665189/41833ef6-0d63-4e48-87f4-27abe62cbadb)
+
+
 
 
 
